@@ -27,8 +27,9 @@
 This Java program demonstrates how to use the **AI21 Labs J2 Mid v1 model** via **Amazon Bedrock** to extract a band name from a legal-style prompt. It highlights the use of a **synchronous (blocking) request** to a foundation model for text parsing and extraction.
 
 ---
-### Inspiration
-https://www.youtube.com/watch?v=Vv2J8N0-eHc&list=LL&index=10&t=58s
+### Resources
+- https://youtu.be/Jj1-zb38Yfw?si=Jv1oeCZKVW33-7Oz
+- https://youtu.be/Vv2J8N0-eHc?si=TJq21zLNFu6t3fO6
 
 ---
 ### 🚀 How It Works
