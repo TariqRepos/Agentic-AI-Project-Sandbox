@@ -1,5 +1,27 @@
 # AWS Bedrock JAVA Projects
 
+## Getting Started
+
+- Setup JAVA in vscode using the guide: [Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)
+- JDK 21+
+- Install [Maven](https://maven.apache.org/download.cgi#Installation) and add to system path
+- Add these to your Maven `pom.xml`:
+
+```xml
+<dependency>
+  <groupId>software.amazon.awssdk</groupId>
+  <artifactId>bedrockruntime</artifactId>
+  <version>2.x.x</version> <!-- Use the latest version -->
+</dependency>
+<dependency>
+  <groupId>org.json</groupId>
+  <artifactId>json</artifactId>
+  <version>20240303</version>
+</dependency>
+```
+- Access to Amazon Bedrock and foundation models
+- AWS credentials configured via `~/.aws/credentials`
+
 
 ## AI21LabsTextGeneration
 This Java program demonstrates how to use the **AI21 Labs J2 Mid v1 model** via **Amazon Bedrock** to extract a band name from a legal-style prompt. It highlights the use of a **synchronous (blocking) request** to a foundation model for text parsing and extraction.
