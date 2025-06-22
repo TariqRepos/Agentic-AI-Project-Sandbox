@@ -13,7 +13,8 @@ import software.amazon.awssdk.services.bedrockruntime.model.InvokeModelResponse;
 
 
 /*
- * Summaries a provided prompt into a simple and easily understandable paragraph
+ * Summaries a provided prompt into a simple and easily understandable paragraph using
+ * a syncronous (blocking call)
  */
 public class ClaudeContentGeneration {
 
@@ -35,7 +36,7 @@ public class ClaudeContentGeneration {
         generative AI aims to mimic human creative abilities at scale to autonomously produce
         high-quality, diverse, and novel content.        
 
-        Please create a single short paragraph so that a fiver years old child can understand.
+        Please create a single short paragraph so that a five years old child can understand.
     """;
 
     public static void main(String... args) throws Exception {
@@ -66,11 +67,11 @@ public class ClaudeContentGeneration {
                 .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
                 .build();
 
-            // Invoke model and convert response to JSON
+            // Invoke model and convert response to JSON, note this is a syncronous (blocking operation)
             InvokeModelResponse invokeModelResponse = bedrockClient.invokeModel(invokeModelRequest);
             JSONObject responseAsJson = new JSONObject(invokeModelResponse.body().asUtf8String());
 
-            // Log response, only to need to parse response in "completeion key fpr the Claude model"
+            // Log response, only to need to parse response in "completeion key" for the Claude model
             System.out.println("🤖 Response: ");
             System.out.println(responseAsJson
                 .getString("completion"));

@@ -49,7 +49,7 @@ public class AI21LabsTextGeneration {
                 .body(SdkBytes.fromString(bedrockBody, Charset.defaultCharset()))
                 .build();
 
-            // Invoke model and convert response to JSON
+            // Invoke model and convert response to JSON, note this is a syncronous (blocking operation)
             InvokeModelResponse invokeModelResponse = bedrockClient.invokeModel(invokeModelRequest);
             JSONObject responseAsJson = new JSONObject(invokeModelResponse.body().asUtf8String());
 
