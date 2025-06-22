@@ -11,3 +11,6 @@ This repository contains Java-based demos that showcase how to use **Amazon Bedr
 Contains projects that experiment with and demonstrates multi-tool AI agent built with the [Strands SDK](https://github.com/strands-ai/strands)
 - [AWS Strands Weather Tool Demo](https://github.com/TariqRepos/Agentic-AI-Project-Sandbox/tree/main/aws_strands_vs_agents_demo#aws-strands-weather-tool-demo)
 
+## Personal Assistant with Strands Agents
+Explores creating custom tools for a pesonal assistant agent using  Strands' [agents as tools](https://strandsagents.com/latest/user-guide/concepts/multi-agent/agents-as-tools/) functionality and MCP server with Docker
+- [Personal Assistant with Strands Agents](https://github.com/TariqRepos/Agentic-AI-Project-Sandbox/tree/main/strands_agents_and_mcp/personal_assistant#personal-assistant-with-strands-agents)
