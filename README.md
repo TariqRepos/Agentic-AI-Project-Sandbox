@@ -9,5 +9,5 @@ This repository contains Java-based demos that showcase how to use **Amazon Bedr
 
 ## AWS Strands Tool Labs/projects
 Contains projects that experiment with and demonstrates multi-tool AI agent built with the [Strands SDK](https://github.com/strands-ai/strands)
-- (AWS Strands Weather Tool Demo)(https://github.com/TariqRepos/Agentic-AI-Project-Sandbox/tree/main/aws_strands_vs_agents_demo#aws-strands-weather-tool-demo)
+- [AWS Strands Weather Tool Demo](https://github.com/TariqRepos/Agentic-AI-Project-Sandbox/tree/main/aws_strands_vs_agents_demo#aws-strands-weather-tool-demo)
 
