@@ -9,7 +9,7 @@ This project demonstrates a multi-tool AI agent built with the [Strands SDK](htt
 
 ## Resources
 - https://github.com/strands-ai/strands
-- https://www.youtube.com/watch?v=dT89C2MuYj4&list=LL&index=9&t=31s
+- https://youtu.be/dT89C2MuYj4?si=sC8sdRE5m8-5gpPV
 
 
 ---
