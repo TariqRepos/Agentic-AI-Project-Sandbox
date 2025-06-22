@@ -4,15 +4,13 @@ from mcp import StdioServerParameters, stdio_client
 from strands import Agent, tool
 from strands.models import BedrockModel
 from strands.tools.mcp import MCPClient
+from constants import SESSION_ID
 
 # Load environment variables
 load_dotenv()
 
 # Show rich UI for tools in CLI
 os.environ["STRANDS_TOOL_CONSOLE_MODE"] = "enabled"
-
-# Session ID for tracing/logging
-SESSION_ID = "aws-mcp-test-1"
 
 
 @tool
