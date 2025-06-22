@@ -3,8 +3,8 @@
 This sample implements a personal assistant agent using Strands' [agents as tools](https://strandsagents.com/latest/user-guide/concepts/multi-agent/agents-as-tools/) functionality.
 
 ## Resources
-- https://www.youtube.com/watch?v=aijS9fWB854&list=LL&index=1&t=1991s
 - https://strandsagents.com/latest/user-guide/concepts/multi-agent/agents-as-tools/
+- https://www.youtube.com/live/aijS9fWB854?si=uZyNAS5IGq3DVCbJ
 
 
 ## 🏗️ Architecture Overview
